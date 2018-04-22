@@ -14,5 +14,6 @@ class DatabaseSeeder extends Seeder
         // $this->call(UsersTableSeeder::class);
         $this->call(PrimeNubersTableSeeder::class);
         $this->call(EventOddNumbersTableSeeder::class);
+        $this->call(NominalAmmountsTableSeeder::class);
     }
 }
